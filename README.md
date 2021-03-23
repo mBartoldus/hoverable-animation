@@ -2,6 +2,8 @@
 
 (The animation in question was done for Simply Banh Mi, a DC restaurant that makes really good iced coffee and sandwiches)
 
+live demo: https://mbartoldus.github.io/hoverable-animation/
+
 This project provides an interface for playing animations on hover/focus. To add this to your project, just copy the files "sprite-sheet.css" and "spriteSheet.js" into your directory, and make sure to include "defer" in the html script tag, like so:
 
     <script defer src="spriteSheet.js"></script>
