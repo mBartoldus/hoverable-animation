@@ -8,6 +8,6 @@ This project provides an interface for playing animations on hover/focus. To add
 
 Other than that, to make this work for a particular animation, you'll need to flatten the animation into a horizontal spritesheet and include the following tag, keeping in mind to change "IMG-URL" and "NUMBER-OF-FRAMES" with the relevant info.
 
-    <div class="sprite-sheet" style="background-image: url(   IMG-URL   ); --framecount:   NUMBER-OF-FRAMES    ;" tabindex="0">
+    <div class="sprite-sheet" style="background-image: url(  IMG-URL  ); --framecount:  NUMBER-OF-FRAMES  ;">
 
 By default the image will show as 200px by 200px and the browser's default filtering. I added "image-rendering: pixelated" to the styling on this one since it's supposed to be pixelart, but I have some other animations I've been working on that'd look more natural without it, so I left it off the CSS class for ease of reuse.
