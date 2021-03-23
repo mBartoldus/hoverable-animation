@@ -1,0 +1,17 @@
+.sprite-sheet {
+    height: 200px;
+    width: 200px;
+    background-size: calc(var(--framecount) * 100%) 100%;
+}
+
+.sprite-sheet[data-animate = "true"]{
+    animation: sprite-frames 1s steps(var(--framecount)) infinite;
+}
+
+.sprite-sheet[data-animate = "false"]{
+    animation: none;
+}
+
+@keyframes sprite-frames {
+  100% { background-position-x: calc(var(--framecount) * -100%); }
+}
