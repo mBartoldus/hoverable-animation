@@ -12,4 +12,4 @@ Other than that, to make this work for a particular animation, you'll need to fl
 
     <div class="sprite-sheet" style="background-image: url(  IMG-URL  ); --framecount:  NUMBER-OF-FRAMES  ;">
 
-By default the image will be 200px by 200px with the browser's default filtering. I added "image-rendering: pixelated" to the styling on this one since it's supposed to be pixelart, but I have some other animations I've been working on that'd look more natural without it, so I left it off the CSS class for ease of reuse.
+By default the image will be 200px by 200px, looping for 1s, with the browser's default filtering. I added "image-rendering: pixelated" to the styling on this one since it's supposed to be pixelart, but I have some other animations I've been working on that'd look more natural without it, so I left it off the CSS class for ease of reuse.
