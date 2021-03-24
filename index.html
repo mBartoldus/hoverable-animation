@@ -11,17 +11,35 @@
 			background-color: rgb(51, 36, 54);
 			height: 100%;
 		}
+
 		body {
 			height: 100%;
 			display: grid;
 			align-content: center;
 			justify-content: center;
 		}
+
+		.container {
+			height: 400px;
+			width: 400px;
+			display: grid;
+			grid-template-columns: 200px 200px;
+			grid-row: auto auto;
+		}
 	</style>
 </head>
 
 <body>
-	<sprite-sheet style="background-image: url(pixelart.png); --framecount: 8; image-rendering: pixelated;" tabindex="0"></sprite-sheet>
+	<div class="container">
+		<sprite-sheet style="background-image: url(pixelart.png); --framecount: 8; image-rendering: pixelated;"
+			tabindex="0"></sprite-sheet>
+		<sprite-sheet style="background-image: url(pixelart.png); --framecount: 8; image-rendering: pixelated;"
+			tabindex="0"></sprite-sheet>
+		<sprite-sheet style="background-image: url(pixelart.png); --framecount: 8; image-rendering: pixelated;"
+			tabindex="0"></sprite-sheet>
+		<sprite-sheet style="background-image: url(pixelart.png); --framecount: 8; image-rendering: pixelated;"
+			tabindex="0"></sprite-sheet>
+	</div>
 </body>
 
 </html>
