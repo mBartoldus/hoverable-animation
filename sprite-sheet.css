@@ -1,15 +1,15 @@
-.sprite-sheet {
+sprite-sheet {
     height: 200px;
     width: 200px;
     background-size: calc(var(--framecount) * 100%) 100%;
     cursor: pointer;
 }
 
-.sprite-sheet[data-animate = "true"]{
+sprite-sheet[data-animate = "true"]{
     animation: sprite-frames 1s steps(var(--framecount)) infinite;
 }
 
-.sprite-sheet[data-animate = "false"]{
+sprite-sheet[data-animate = "false"]{
     animation: none;
 }
 
